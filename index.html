@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velvet Beam Crown</title>
+    <style>
+        body {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            
+            background-color: #1a1a2e;
+            color: #ffffff;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden; 
+        }
+
+        .publisher-name {
+            font-size: 5vw; 
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 0.15em;
+            padding: 10px 20px;
+            
+            text-shadow: 
+                0 0 5px rgba(135, 206, 250, 0.8),
+                0 0 15px rgba(135, 206, 250, 0.6), 
+                0 0 30px rgba(255, 255, 255, 0.1);
+            
+            transition: all 0.5s ease;
+            cursor: default; 
+        }
+
+       
+        .publisher-name:hover {
+            text-shadow: 
+                0 0 8px rgba(255, 255, 255, 1),
+                0 0 20px rgba(135, 206, 250, 0.9),
+                0 0 40px rgba(135, 206, 250, 0.7);
+        }
+
+        
+        @media (max-width: 768px) {
+            .publisher-name {
+                font-size: 8vw;
+                letter-spacing: 0.1em;
+                padding: 5px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="publisher-name">
+        Velvet Beam Crown
+    </div>
+</body>
+</html>
